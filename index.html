@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupador de Serviços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agrupador de Serviços Extras</h1>
+    </header>
+
+    <div class="container">
+        <div class="column" id="services-column">
+              <div class="groups-header">
+            <h2>Serviços Disponíveis</h2>
+            <button id="create-service-btn">+ Criar Novo Serviço</button>
+        </div>
+            <div id="services-list" class="drop-zone" data-group-id="null">
+                </div>
+        </div>
+
+        <div class="column" id="groups-column">
+            <div class="groups-header">
+                <h2>Grupos de Serviços</h2>
+                <button id="create-group-btn">+ Criar Novo Grupo</button>
+            </div>
+            <div id="groups-list">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
