@@ -12,7 +12,7 @@ COPY nginx.conf /etc/nginx/conf.d/
 # Copia seus arquivos estáticos (HTML, CSS, JS, imagens, etc.) para o diretório de serviço do Nginx
 # Certifique-se de que a pasta 'public' (ou o nome da sua pasta de arquivos estáticos)
 # esteja no mesmo diretório do Dockerfile
-COPY public /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 # Expõe a porta 80, que é a porta padrão do Nginx para HTTP
 # Isso permite que você acesse o servidor de fora do contêiner
